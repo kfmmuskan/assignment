@@ -103,6 +103,37 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+
 .recepie-header{
+    text-align: center;
+}
+
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+footer h1{
+    margin: 0;
+}
+footer p{
+    margin: 0;
+}
+
+.channels{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 4px 7px 9px 8px rgb(0 0 0 / 20%);
+    border-radius: 25px;
+    margin: 3%;
+}
+.channels div{
+     width: 33.33%;
     text-align: center;
 }
